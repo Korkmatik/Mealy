@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:meal_app/screens/categories_screen.dart';
 import 'package:meal_app/screens/favorites_screen.dart';
+import 'package:meal_app/widgets/main_drawer.dart';
 
 class TabsScreen extends StatefulWidget {
   const TabsScreen({Key? key}) : super(key: key);
@@ -31,6 +32,7 @@ class _TabsScreenState extends State<TabsScreen> {
             ],
           ),
         ),
+        drawer: MainDrawer(),
         body: const TabBarView(
           children: [
             CategoriesScreen(),
