@@ -1,4 +1,4 @@
-# meal_app
+# Mealy
 
 A simple app to search through meal recipes
 
